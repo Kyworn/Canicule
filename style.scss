@@ -1,0 +1,74 @@
+$color_black: #555;
+$font_size: 1em;
+$font_size_header: 2em;
+$marginhead: 2em;
+body {
+  font-family: 'Droid Sans', sans-serif;
+
+    margin: 0 auto;
+}
+header {
+    margin-bottom: $marginhead;
+    font-size: $font_size_header;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 100%;
+    background-color: $color_black;
+}
+article {
+    color: $color_black;
+    margin: 0 auto;
+    max-width: 60em;
+    background-color: #ddd;
+    font-size: $font_size;
+    margin-bottom: $marginhead;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+article #decal {
+    margin-top: 10%;
+}
+article #content {
+    max-width: 50em;
+    margin-left: 5em;
+    margin-bottom: 10%;
+}
+article h1:first-child {
+    text-align: center;
+    margin-bottom: 8%;
+}
+article h1:nth-of-type(2) {
+    text-align: center;
+    margin-top: 8%;
+}
+#decalbot {
+    margin-bottom: 5%;
+}
+footer {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    max-width: 100%;
+    background-color: $color_black;
+    margin-top: $marginhead;
+}
+footer p {
+    text-align: center;
+    font-size: 0.8em;
+    max-width: 70em;
+}
+footer p:nth-child(1) {
+    margin-right: 4%;
+}
+footer p:nth-child(2) {
+    margin-right: 4%;
+}
+ul {
+  list-style: none;
+}
